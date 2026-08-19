@@ -9,4 +9,5 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
+  @apply bg-gray-100 dark:bg-gray-900 transition-colors;
 }
