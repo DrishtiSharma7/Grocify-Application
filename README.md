@@ -2,6 +2,10 @@
 
 A responsive grocery e-commerce front end built with React and Tailwind CSS — a curated shop of fresh produce with cart, wishlist, authentication, and a full checkout flow. Built as a UI-recreation assignment and then extended into a fuller shopping experience.
 
+## Live Link
+
+Link: https://grocify-application.vercel.app/home
+
 ## Features
 
 - **Shop** — searchable, filterable (category, price range, availability), sortable (popularity, price, freshness) product grid with grid/list view toggle
@@ -80,6 +84,3 @@ src/
 - All state (cart, wishlist, auth session, order history) is persisted to `localStorage` — there is no backend. Signup stores credentials in plain text in `localStorage` purely to simulate an account system for this demo; **do not reuse this auth approach for anything handling real user data.**
 - Product images use placeholder URLs (`picsum.photos`) rather than the original assignment asset pack.
 
-## Screenshots
-
-_Add desktop, tablet, and mobile screenshots here before submission._
